@@ -139,7 +139,7 @@ public enum ESPSessionError: ESPError {
 
 /// 'ESPDeviceCSSError' consist of error case that are generated while creating objects of physical ESPDevice.
 /// List covers failed cases of operation like Create, Scan and Search of ESPDevice.
-public enum ESPDeviceCSSError: ESPError {
+public enum ESPDeviceCSSError: ESPError, Equatable {
     
     /// Indicates camera is not available in device.
     case cameraNotAvailable
