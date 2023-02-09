@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		783316E429432D33000EE05F /* ESPProvisioningExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783316E329432D33000EE05F /* ESPProvisioningExampleApp.swift */; };
+		783316E829432D35000EE05F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 783316E729432D35000EE05F /* Assets.xcassets */; };
+		783316EB29432D35000EE05F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 783316EA29432D35000EE05F /* Preview Assets.xcassets */; };
+		783316F8294332CC000EE05F /* ProvisioningConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783316F52943328F000EE05F /* ProvisioningConfigurationView.swift */; };
+		783945ED29436C38002A5B7D /* ESPDevice+Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783945EC29436C38002A5B7D /* ESPDevice+Async.swift */; };
+		783945F029436C8F002A5B7D /* ESPProvision in Frameworks */ = {isa = PBXBuildFile; productRef = 783945EF29436C8F002A5B7D /* ESPProvision */; };
+		783945F229436CD7002A5B7D /* ESPProvisionManager+Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783945F129436CD7002A5B7D /* ESPProvisionManager+Async.swift */; };
+		783945F429437201002A5B7D /* BLEDeviceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783945F329437201002A5B7D /* BLEDeviceListView.swift */; };
+		783945F7294B8A29002A5B7D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783945F6294B8A29002A5B7D /* Launch Screen.storyboard */; };
+		783945F9294B90CF002A5B7D /* ProvisioningPermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783945F8294B90CF002A5B7D /* ProvisioningPermissionsView.swift */; };
+		783945FB294CC51D002A5B7D /* QRCodeScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783945FA294CC51D002A5B7D /* QRCodeScanView.swift */; };
+		786F4A332977F02400797A2A /* ESPProvision in Frameworks */ = {isa = PBXBuildFile; productRef = 786F4A322977F02400797A2A /* ESPProvision */; };
+		786F4A3729841F7A00797A2A /* GoToSettingsVew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F4A3629841F7A00797A2A /* GoToSettingsVew.swift */; };
+		786F4A3A298422E400797A2A /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F4A39298422E400797A2A /* Errors.swift */; };
+		78A1E972296C53F800B4A23D /* ConnectAndShowWifiListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1E971296C53F800B4A23D /* ConnectAndShowWifiListView.swift */; };
+		78D4373029915B22002B8303 /* MessageAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4372F29915B22002B8303 /* MessageAlert.swift */; };
+		78E36759296DEB76004D6156 /* SignalStrengthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E36758296DEB76004D6156 /* SignalStrengthView.swift */; };
+		78FDE2BA296DC61300C54420 /* ProvisioningViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FDE2B9296DC61300C54420 /* ProvisioningViewModel.swift */; };
+		78FDE2BD296DD47200C54420 /* ProgressViewStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FDE2BC296DD47200C54420 /* ProgressViewStyles.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		783316E029432D33000EE05F /* ESPProvisioningExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESPProvisioningExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		783316E329432D33000EE05F /* ESPProvisioningExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPProvisioningExampleApp.swift; sourceTree = "<group>"; };
+		783316E729432D35000EE05F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		783316EA29432D35000EE05F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		783316EC29432D35000EE05F /* ESPProvisioningExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ESPProvisioningExample.entitlements; sourceTree = "<group>"; };
+		783316F52943328F000EE05F /* ProvisioningConfigurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvisioningConfigurationView.swift; sourceTree = "<group>"; };
+		783945EC29436C38002A5B7D /* ESPDevice+Async.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ESPDevice+Async.swift"; sourceTree = "<group>"; };
+		783945F129436CD7002A5B7D /* ESPProvisionManager+Async.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ESPProvisionManager+Async.swift"; sourceTree = "<group>"; };
+		783945F329437201002A5B7D /* BLEDeviceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEDeviceListView.swift; sourceTree = "<group>"; };
+		783945F6294B8A29002A5B7D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		783945F8294B90CF002A5B7D /* ProvisioningPermissionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvisioningPermissionsView.swift; sourceTree = "<group>"; };
+		783945FA294CC51D002A5B7D /* QRCodeScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScanView.swift; sourceTree = "<group>"; };
+		786F4A3629841F7A00797A2A /* GoToSettingsVew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoToSettingsVew.swift; sourceTree = "<group>"; };
+		786F4A39298422E400797A2A /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		78A1E971296C53F800B4A23D /* ConnectAndShowWifiListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectAndShowWifiListView.swift; sourceTree = "<group>"; };
+		78D4372F29915B22002B8303 /* MessageAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageAlert.swift; sourceTree = "<group>"; };
+		78E36758296DEB76004D6156 /* SignalStrengthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalStrengthView.swift; sourceTree = "<group>"; };
+		78FDE2B9296DC61300C54420 /* ProvisioningViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvisioningViewModel.swift; sourceTree = "<group>"; };
+		78FDE2BC296DD47200C54420 /* ProgressViewStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewStyles.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		783316DD29432D33000EE05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783945F029436C8F002A5B7D /* ESPProvision in Frameworks */,
+				786F4A332977F02400797A2A /* ESPProvision in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		783316D729432D33000EE05F = {
+			isa = PBXGroup;
+			children = (
+				783316E229432D33000EE05F /* ESPProvisioningExample */,
+				783316E129432D33000EE05F /* Products */,
+				783945EE29436C8F002A5B7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		783316E129432D33000EE05F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				783316E029432D33000EE05F /* ESPProvisioningExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		783316E229432D33000EE05F /* ESPProvisioningExample */ = {
+			isa = PBXGroup;
+			children = (
+				783945EB29436C0F002A5B7D /* Extensions */,
+				786F4A382984226C00797A2A /* ViewModels */,
+				783316F42943328F000EE05F /* Views */,
+				783316E329432D33000EE05F /* ESPProvisioningExampleApp.swift */,
+				783316E729432D35000EE05F /* Assets.xcassets */,
+				783316EC29432D35000EE05F /* ESPProvisioningExample.entitlements */,
+				783945F6294B8A29002A5B7D /* Launch Screen.storyboard */,
+				783316E929432D35000EE05F /* Preview Content */,
+			);
+			path = ESPProvisioningExample;
+			sourceTree = "<group>";
+		};
+		783316E929432D35000EE05F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				783316EA29432D35000EE05F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		783316F42943328F000EE05F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				78FDE2BB296DD45E00C54420 /* Components */,
+				783945F529437207002A5B7D /* Provisioning */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		783945EB29436C0F002A5B7D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				783945EC29436C38002A5B7D /* ESPDevice+Async.swift */,
+				783945F129436CD7002A5B7D /* ESPProvisionManager+Async.swift */,
+				786F4A39298422E400797A2A /* Errors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		783945EE29436C8F002A5B7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		783945F529437207002A5B7D /* Provisioning */ = {
+			isa = PBXGroup;
+			children = (
+				783945F8294B90CF002A5B7D /* ProvisioningPermissionsView.swift */,
+				783316F52943328F000EE05F /* ProvisioningConfigurationView.swift */,
+				783945F329437201002A5B7D /* BLEDeviceListView.swift */,
+				783945FA294CC51D002A5B7D /* QRCodeScanView.swift */,
+				78A1E971296C53F800B4A23D /* ConnectAndShowWifiListView.swift */,
+			);
+			path = Provisioning;
+			sourceTree = "<group>";
+		};
+		786F4A382984226C00797A2A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				78FDE2B9296DC61300C54420 /* ProvisioningViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		78FDE2BB296DD45E00C54420 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				78FDE2BC296DD47200C54420 /* ProgressViewStyles.swift */,
+				78E36758296DEB76004D6156 /* SignalStrengthView.swift */,
+				786F4A3629841F7A00797A2A /* GoToSettingsVew.swift */,
+				78D4372F29915B22002B8303 /* MessageAlert.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		783316DF29432D33000EE05F /* ESPProvisioningExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783316EF29432D36000EE05F /* Build configuration list for PBXNativeTarget "ESPProvisioningExample" */;
+			buildPhases = (
+				783316DC29432D33000EE05F /* Sources */,
+				783316DD29432D33000EE05F /* Frameworks */,
+				783316DE29432D33000EE05F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESPProvisioningExample;
+			packageProductDependencies = (
+				783945EF29436C8F002A5B7D /* ESPProvision */,
+				786F4A322977F02400797A2A /* ESPProvision */,
+			);
+			productName = ESPProvisioningExample;
+			productReference = 783316E029432D33000EE05F /* ESPProvisioningExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		783316D829432D33000EE05F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					783316DF29432D33000EE05F = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 783316DB29432D33000EE05F /* Build configuration list for PBXProject "ESPProvisioningExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 783316D729432D33000EE05F;
+			packageReferences = (
+				786F4A312977F02400797A2A /* XCRemoteSwiftPackageReference "esp-idf-provisioning-ios" */,
+			);
+			productRefGroup = 783316E129432D33000EE05F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				783316DF29432D33000EE05F /* ESPProvisioningExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		783316DE29432D33000EE05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783945F7294B8A29002A5B7D /* Launch Screen.storyboard in Resources */,
+				783316EB29432D35000EE05F /* Preview Assets.xcassets in Resources */,
+				783316E829432D35000EE05F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		783316DC29432D33000EE05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786F4A3A298422E400797A2A /* Errors.swift in Sources */,
+				786F4A3729841F7A00797A2A /* GoToSettingsVew.swift in Sources */,
+				78FDE2BA296DC61300C54420 /* ProvisioningViewModel.swift in Sources */,
+				783945ED29436C38002A5B7D /* ESPDevice+Async.swift in Sources */,
+				783945F429437201002A5B7D /* BLEDeviceListView.swift in Sources */,
+				783945FB294CC51D002A5B7D /* QRCodeScanView.swift in Sources */,
+				78A1E972296C53F800B4A23D /* ConnectAndShowWifiListView.swift in Sources */,
+				783316E429432D33000EE05F /* ESPProvisioningExampleApp.swift in Sources */,
+				78D4373029915B22002B8303 /* MessageAlert.swift in Sources */,
+				78E36759296DEB76004D6156 /* SignalStrengthView.swift in Sources */,
+				783316F8294332CC000EE05F /* ProvisioningConfigurationView.swift in Sources */,
+				783945F229436CD7002A5B7D /* ESPProvisionManager+Async.swift in Sources */,
+				783945F9294B90CF002A5B7D /* ProvisioningPermissionsView.swift in Sources */,
+				78FDE2BD296DD47200C54420 /* ProgressViewStyles.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		783316ED29432D35000EE05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		783316EE29432D36000EE05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		783316F029432D36000EE05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ESPProvisioningExample/ESPProvisioningExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ESPProvisioningExample/Preview Content\"";
+				DEVELOPMENT_TEAM = JCPY7FXGR4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Please grant access to bluetooth in order to connect to the device you want to provision";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please grant access to the camera in order to be able to scan QR-codes";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.grandcentrix.ESPProvisioningExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		783316F129432D36000EE05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ESPProvisioningExample/ESPProvisioningExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ESPProvisioningExample/Preview Content\"";
+				DEVELOPMENT_TEAM = JCPY7FXGR4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Please grant access to bluetooth in order to connect to the device you want to provision";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please grant access to the camera in order to be able to scan QR-codes";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.grandcentrix.ESPProvisioningExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		783316DB29432D33000EE05F /* Build configuration list for PBXProject "ESPProvisioningExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783316ED29432D35000EE05F /* Debug */,
+				783316EE29432D36000EE05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783316EF29432D36000EE05F /* Build configuration list for PBXNativeTarget "ESPProvisioningExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783316F029432D36000EE05F /* Debug */,
+				783316F129432D36000EE05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		786F4A312977F02400797A2A /* XCRemoteSwiftPackageReference "esp-idf-provisioning-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GCX-HCI/esp-idf-provisioning-ios";
+			requirement = {
+				kind = exactVersion;
+				version = 2.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		783945EF29436C8F002A5B7D /* ESPProvision */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ESPProvision;
+		};
+		786F4A322977F02400797A2A /* ESPProvision */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 786F4A312977F02400797A2A /* XCRemoteSwiftPackageReference "esp-idf-provisioning-ios" */;
+			productName = ESPProvision;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 783316D829432D33000EE05F /* Project object */;
+}
