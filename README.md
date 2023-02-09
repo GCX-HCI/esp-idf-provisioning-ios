@@ -23,6 +23,11 @@ This is a fork of the [ESPProvision](https://github.com/espressif/esp-idf-provis
 
 Please visit the [original repository](https://github.com/espressif/esp-idf-provisioning-ios) for documentation & usage.
 
+## Example application
+
+The example application relies on SwiftUI completely and is targeted at iOS >= 14.7
+Manual provisioning for SoftAP mode is not implemented (yet?)
+
 ## License
 
 ESPProvision is released under the Apache License Version 2.0.
