@@ -24,9 +24,12 @@ This is a fork of the [ESPProvision](https://github.com/espressif/esp-idf-provis
 Please visit the [original repository](https://github.com/espressif/esp-idf-provisioning-ios) for documentation & usage.
 
 ## Example application
-
 The example application relies on SwiftUI completely and is targeted at iOS >= 14.7
-Manual provisioning for SoftAP mode is not implemented (yet?)
+
+A few notes:
+- manual provisioning for SoftAP mode is not implemented (yet?)
+- not every edge case is handled
+- some unexpected behaviour is due to firmware implmentation details (eg. you have to restart the ESP32 if you provide wrong WiFi credentials in SoftAP mode)
 
 ## License
 
